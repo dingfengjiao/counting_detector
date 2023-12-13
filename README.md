@@ -1,17 +1,11 @@
-# yolov5 deepsort 行人 车辆 跟踪 检测 计数
+# yolov5 deepsort 行人跟踪 检测 计数
 
 - 实现了 出/入 分别计数。
 - 显示检测类别。
 - 默认是 南/北 方向检测，若要检测不同位置和方向，可在 main.py 文件第13行和21行，修改2个polygon的点。
-- 默认检测类别：行人、自行车、小汽车、摩托车、公交车、卡车。
+- 默认检测类别可以增加。
 - 检测类别可在 detector.py 文件第60行修改。
 
-
-### 视频
-
-bilibili
-
-[![bilibili](https://github.com/dyh/unbox_yolov5_deepsort_counting/blob/main/cover.jpg?raw=true)](https://www.bilibili.com/video/BV14z4y127XX/ "bilibili")
 
 
 ## 运行环境
